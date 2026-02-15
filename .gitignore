@@ -1,0 +1,11 @@
+Lecture*
+Module*
+.venv/
+
+*.DS_Store
+*.pyc
+
+pycache/
+__pycache__/
+
+.vscode/
