@@ -4,7 +4,6 @@ Module*
 
 *.DS_Store
 *.pyc
-
 pycache/
 __pycache__/
 
