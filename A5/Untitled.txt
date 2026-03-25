@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>File Sharing Service 🏴‍☠️</title>
+  </head>
+  <body>
+    <p>Yarr. Take a file, leave a file.</p>
+    <p>You are logged in as: <?= $username ?></p>
+    <form method="post" enctype="multipart/form-data">
+      <input name="file" type="file"/>
+      <input type="submit" value="Upload"/>
+    </form>
+    <p>Your uploads:</p>
+    <ul>
+      <? foreach ($uploads as $upload) { ?>
+        <? $uploader = admin; ?>
+        <li><a href="get.php?uploader=<?=$uploader?>"><?=$uploader?></a></li>
+      <? } ?>
+    </ul>
+  </body>
+</html>
