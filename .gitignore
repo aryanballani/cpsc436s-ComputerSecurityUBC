@@ -17,4 +17,5 @@ __pycache__/
 cupp 
 
 # reverse engineering library from NSA 
-ghidra*
+ghidra/ghidra*
+ghidra/comp_security*
