@@ -12,3 +12,9 @@ __pycache__/
 *.epub
 
 *.dSYM
+
+# password profiler tool from github
+cupp 
+
+# reverse engineering library from NSA 
+ghidra*
